@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 image:
-  feature: 19.jpg
+  feature: 6.jpg
 ---
 
 <div class="tiles">
