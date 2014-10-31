@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title: Skinny Bones
-description: "A lightweight site starter for Jekyll"
+title: insupper
+description: "this is a population website"
 logo: 120x120.gif
 teaser: 400x250.gif
 locale: en_US
@@ -22,8 +22,8 @@ gems:
 # Site owner
 owner:
   name: Michael Rose
-  web: http://mademistakes.com
-  email: michael@mademistakes.com
+  web: http://insupper.com
+  email: 525081045@qq.com
   twitter: mmistakes
   bio: "Just another boring, tattooed, time traveling designer."
   avatar: bio-photo.jpg # 160x160 px image for author byline
