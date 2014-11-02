@@ -12,7 +12,8 @@ url: //insupper.com
 sass:
   sass_dir: _sass
   style: compressed
-permalink: /:categories/:title/
+#permalink: /:categories/:title/
+permalink: /:title
 markdown: kramdown
 highlighter: pygments
 gems:
