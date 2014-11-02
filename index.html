@@ -107,8 +107,7 @@
     var $this= $(this),
         page = $this.data('page');
     $this.on('click',function(){
-      $('.page.'+page).addClass('openpage');
-      fadeDashBoard();
+     document.location.href="/main.html";
     })
   });
   $('.close-button').click(function(){
