@@ -1,11 +1,14 @@
 # Site wide configuration
-
+auto: true
 title: insupper
 description: "this is a population website"
 logo: 120x120.gif
 teaser: 400x250.gif
 locale: en_US
+pygments: true
 url: //insupper.com
+feed: /atom_1.xml
+author_info: <a href="http://xuchanggui.github.com">Insupper</a>
 
 # Jekyll configuration
 
@@ -15,6 +18,7 @@ sass:
 #permalink: /:categories/:title/
 permalink: /:title
 markdown: kramdown
+paginate: 8
 highlighter: pygments
 gems:
   - jekyll-sitemap
