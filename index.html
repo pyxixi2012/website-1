@@ -115,6 +115,7 @@
 	 //window.open ('/main.html'); 
     })
   });
+
    $('#blog').each(function(){
     var $this= $(this),
         page = $this.data('page');
@@ -124,6 +125,7 @@
 	 window.open ('/main.html'); 
     })
   });
+
   $('.close-button').click(function(){
     $(this).parent().addClass('slidePageLeft')
           .one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(e) {
