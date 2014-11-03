@@ -8,15 +8,15 @@ locale: en_US
 pygments: true
 url: //insupper.com
 feed: /atom_1.xml
-author_info: <a href="http://xuchanggui.github.com">Insupper</a>
+author_info: <a href="http://xuchanggui.github.com">insupper</a>
 
 # Jekyll configuration
 
 sass:
   sass_dir: _sass
   style: compressed
-#permalink: /:categories/:title/
-permalink: /:title
+permalink: /:categories/:title/
+#permalink: /:title
 markdown: kramdown
 paginate: 8
 highlighter: pygments
