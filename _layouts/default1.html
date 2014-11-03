@@ -1,0 +1,116 @@
+<!-- saved from url=(0014)http://m4er.cn -->
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    * Author: xuchanggui 
+    -->
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="author" content="sao year" />
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="轻松一刻" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="baidu-site-verification" content="NunK0Zn1pn" />
+    <link rel="stylesheet" href="/css/default.css" type="text/css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
+    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    
+    <script src="/js/nprogress.js"></script>
+	<script src="/js/jquery.qrcode.js"></script>
+    <script src="/js/qrcode.js"></script>
+	<script src="http://www.clocklink.com/embed.js"></script> 
+    <link rel='stylesheet' href='/css/nprogress.css'/>
+	<script >
+	function OpenWin(theUrl,width,heigh)
+	{
+	  window.open(theUrl,'','menubar=no, z-look=yes, scrollbars=yes, toolbar=no, status=yes, resizable=no, width='+ width +', height='+heigh);
+	}    
+		function tijiao(){
+		//alert("word====="+document.getElementsByName("word")[0].value);
+		///window.location.target="_ablank";
+       var href="http://www.baidu.com/s?ie=utf-8&word="+document.getElementsByName("word")[0].value;
+	   OpenWin(href,800,500);
+	}
+	</script>
+
+ <!-- <div align="center" valign="top" id="output"></div> -->
+  <div align="center" valign="top" > 
+<form action="http://www.baidu.com/baidu" target="_blank"><input name=tn type=hidden value=baidu><input type="text"  name="word"  size=30><input type="submit"  value="想搜就搜"></td></tr></table></form>
+<div valign="bottom">
+<embed src="http://www.clocklink.com/clocks/5010-blue.swf?TimeZone=CCT" width="224" height="40" wmode="transparent" type="application/x-shockwave-flash">
+<object type="application/x-shockwave-flash" data="http://files.cnblogs.com/yjmyzz/dewplayer-mini.swf?mp3=http://xuchanggui.github.io/music/beyond_dadi.mp3&amp;autostart=0" width="123" height="30" id="dewplayer" name="dewplayer"> <param name="wmode" value="transparent">
+</object>
+<!-- <object type="application/x-shockwave-flash" data="http://files.cnblogs.com/yjmyzz/dewplayer-mini.swf?mp3=http://sc.111ttt.com/up/mp3/169571/E5F1783B13F830B7CAE83BF7C24BEABF.mp3&amp;autostart=0" width="120" height="30" id="dewplayer" name="dewplayer"> <param name="wmode" value="transparent"></object> -->
+</div>
+</div>
+</head>
+	<script type="text/javascript">
+	//监听输入框回车事件
+	function enter(){
+	var event = event || window.event;//这里的event兼容跟上面不同，关于event的兼容，请猛戳这里
+    if(event.keyCode == 13){
+       tijiao();
+      }
+	}
+    <!--
+	
+       //alert("生成二维码");
+		 //jQuery('#output').qrcode({width:100,height:100,correctLevel:0,text:"xuchanggui.github.com"});  
+    //-->
+    </script>
+<body>
+    <script>
+        NProgress.configure({ minimum: 0.1 });
+        NProgress.configure({ ease: 'ease', speed: 1500 });
+        NProgress.configure({ trickleRate: 0.01, trickleSpeed: 1000 });
+        NProgress.configure({ showSpinner: false });
+        NProgress.start();
+        $(document).ready(function(){
+            NProgress.done();
+        });
+    </script>
+    
+    <div class="home-menu">
+        <div class="home-icon-con">
+            <a class="home-menu-icon" href="http://xuchanggui.github.io/blog">HOME</a>
+            <a class="home-follow" href="#" title="Contact Me">+</a>
+        </div>
+        <div class="home-contact">
+            <a href="http://weibo.com/u/2135788570" target="_blank" style="margin-left:-5px;"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
+            <a href="http://www.douban.com/people/xuchanggui/" target="_blank" style="text-align:center;"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
+            <a href="http://my.oschina.net/xuchanggui" target="_blank" style="text-align:center;"><img src="http://www.oschina.net/favicon.ico" alt="" width="22"/></a>
+        </div>
+    </div>
+
+    {{ content }}
+	 <!-- <div class="aside_right">
+<iframe class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=2135788570&verifier=cecc99b6&colors=fcd71f,1effda,040404,0082cb,14ff0a&dpc=1"></iframe>
+    </div> -->
+
+    <script type="text/javascript">
+        $(function(){
+            $('.home-follow').click(function(e){
+                e.preventDefault();
+
+                if($('.home-contact').is(':visible')){
+                    $('.home-contact').slideUp(100);
+                }else{
+                    $('.home-contact').slideDown(100);
+                }
+            });
+        })
+    </script>
+    
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"分享快乐分享感受，我分享我快乐","bdMini":"2","bdMiniList":false,"bdPic":"http://xuchanggui.github.io/images/g.jpg","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"5","bdPos":"left","bdTop":"216.5"},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：http://weibo.com/u/2135788570/home?topnav=1&amp;wvr=5","viewSize":"24"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<!-- 百度统计代码 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ff7ccd3cede6fb76ac5e635c760108579' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>
