@@ -2,7 +2,7 @@
 auto: true
 title: insupper
 description: "this is a population website"
-logo: 120x120.gif
+logo: favicon.ico
 teaser: 400x250.gif
 locale: en_US
 pygments: true
