@@ -283,7 +283,9 @@ ul{
 .git-thumb:hover, .favorites-thumb:hover, .notes-thumb:hover {color:#385E82;}
 
 .photos-thumb {background:#BEA881;}
+.website-thumb {background:#012799;}
 .photos-thumb:hover {color:#BEA881;}
+.website-thumb:hover {color:#00FFAA;}
 
 .calendar-thumb, .organizer-thumb {background:#8BBA30;}
 .calendar-thumb:hover, .organizer-thumb:hover {color:#8BBA30;}
