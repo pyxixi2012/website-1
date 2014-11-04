@@ -5,7 +5,7 @@
   excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
   image: 20.gif
 
-- title: Some Articles
+- title: Articles
   url: /articles/
   excerpt: "Examples of long form posts."
   image: 21.gif
@@ -15,7 +15,17 @@
   excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
   image: 20.gif
 
-- title: About
+- title: Programmer
+  url: /about/
+  excerpt: "All about Skinny Bones for Jekyll."
+  image: 21.gif
+
+  - title: Life
+  url: /about/
+  excerpt: "All about Skinny Bones for Jekyll."
+  image: 21.gif
+
+  - title: About
   url: /about/
   excerpt: "All about Skinny Bones for Jekyll."
   image: 21.gif
