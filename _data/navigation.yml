@@ -1,11 +1,11 @@
 # Site navigation links
 
-- title: Getting Started
+- title: Started
   url: /getting-started/
   excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
   image: 20.gif
 
-- title: Some Articles
+- title: Articles
   url: /articles/
   excerpt: "Examples of long form posts."
   image: 21.gif
