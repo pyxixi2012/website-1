@@ -157,7 +157,7 @@ ul{
   list-style-type: none;
 }
 .demo-wrapper{
-  background:url("../images/1.png");
+  /*background:url("../images/1.png");*/
   background-size:cover;
   padding:4em .5em; 
   width:100%; 
