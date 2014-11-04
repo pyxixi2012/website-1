@@ -22,7 +22,7 @@
     </div>
   </div>
   <div class="page todos">
-    <h2 class="page-title">My Todos</h2>
+    <h2 class="page-title">My Blog</h2>
     <ul contenteditable>
       <li>Finish my 3D demo<span class="delete-button">x</span></li>
       <li>Design my blog<span class="delete-button">x</span></li>
@@ -40,9 +40,9 @@
 
   <div class="dashboard clearfix">
       <div class="col1 clearfix">
-        <div class="big todos-thumb" data-page="todos" id="MyTodos">
-          <p>My Todos
-            <span class="todos-thumb-span">You have 5 more tasks to do!</span>
+        <div class="big todos-thumb" data-page="todos" id="myblog">
+          <p>My Blog
+            <span class="todos-thumb-span">welcome you visit my blog</span>
           </p>
         </div>
         <div class="small lock-thumb" id="lock-thumb">
@@ -70,7 +70,7 @@
         <div class="small last favorites-thumb" data-page="random-page" id="favorites-thumb"><span class="icon-font" aria-hidden="true" data-icon="&#xe018;"></span></div>
         <div class="big games-thumb" data-page="random-page" id="Games"><span class="icon-font" aria-hidden="true" data-icon="&#xe002;"></span><p>Games</p></div>
         <div class="small git-thumb" data-page="random-page" id="git"><span class="icon-font" aria-hidden="true" data-icon="&#xe010;"></span></div>
-        <div class="small last code-thumb" data-page="random-page" id="blog"><span class="icon-font" aria-hidden="true">Blog</span></div>
+        <div class="small last code-thumb" data-page="random-page" id="website"><span class="icon-font" aria-hidden="true">website</span></div>
       </div>
   </div>
 </div>
@@ -116,7 +116,7 @@
     })
   });
 
-   $('#blog').each(function(){
+   $('#website').each(function(){
     var $this= $(this),
         page = $this.data('page');
     $this.on('click',function(){
@@ -126,15 +126,16 @@
     })
   });
 
-     $('#Games').each(function(){
+    $('#myblog').each(function(){
     var $this= $(this),
         page = $this.data('page');
     $this.on('click',function(){
      //document.location.href="/main.html";
-	// window.open ('/main.html', 'blog', 'height=100, width=400, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no'); 
-	 window.open ('/home.html'); 
+  // window.open ('/main.html', 'blog', 'height=100, width=400, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no'); 
+   window.open ('/blog'); 
     })
   });
+
 
   $('.close-button').click(function(){
     $(this).parent().addClass('slidePageLeft')
