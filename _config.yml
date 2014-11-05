@@ -6,7 +6,7 @@ logo: favicon.ico
 teaser: 400x250.gif
 locale: en_US
 pygments: true
-url: //insupper.com
+url: //insupper.com/main
 feed: /atom_1.xml
 author_info: <a href="http://xuchanggui.github.com">insupper</a>
 
