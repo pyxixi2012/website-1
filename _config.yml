@@ -6,9 +6,9 @@ logo: favicon.ico
 teaser: 400x250.gif
 locale: en_US
 pygments: true
-url: //insupper.com/main
+url: //insupper.com
 feed: /atom_1.xml
-author_info: <a href="http://xuchanggui.github.com">insupper</a>
+author_info: <a href="http://insupper.com">insupper</a>
 
 # Jekyll configuration
 
