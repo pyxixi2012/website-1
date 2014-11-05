@@ -62,7 +62,7 @@
         <div class="big news-thumb" data-page="random-page" id="News"><span class="icon-font" aria-hidden="true" data-icon="&#xe00f;"></span><p>News</p></div>
         <div class="small calendar-thumb" data-page="random-page" id="calendar-thumb"><span class="icon-font" aria-hidden="true" data-icon="&#xe00a;"></span></div>
         <div class="small last paint-thumb" data-page="random-page" id=" paint-thumb"><span class="icon-font" aria-hidden="true" data-icon="&#xe014;"></span></div>
-        <div class="big weather-thumb" data-page="random-page" id="Weather"><span class="icon-font" aria-hidden="true" data-icon="&#xe012;"></span><p> Weather</p></div>
+        <div class="big weather-thumb" data-page="random-page" id="weather"><span class="icon-font" aria-hidden="true" data-icon="&#xe012;"></span><p> Weather</p></div>
       </div>
       <div class="col3 clearfix">      
         <div class="big photos-thumb" data-page="random-page" id="Photos"><span class="icon-font" aria-hidden="true" data-icon="&#xe001;"></span><p> Photos</p></div>
@@ -124,7 +124,7 @@
      //document.location.href="/main.html";
 	// window.open ('/main.html', 'blog', 'height=100, width=400, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no'); 
 	 window.open ('/main.html'); 
-    })
+  })
   });
 
   $('#myblog').each(function(){
@@ -138,7 +138,7 @@
   });
   
     $('#weather').each(function(){
-    var $this= $(this),
+        var $this= $(this),
         page = $this.data('page');
     $this.on('click',function(){
      //document.location.href="/main.html";
