@@ -18,7 +18,7 @@
 - title: Programmer
   url: /programmer/
   excerpt: "I am Programmer"
-  image: mn6.jpg
+  image: a.jpg
 
 - title: Life
   url: /life/
@@ -28,4 +28,4 @@
 - title: About
   url: /about/
   excerpt: "All about Skinny Bones for Jekyll."
-  image: mn8.jpg
+  image: d.jpg
