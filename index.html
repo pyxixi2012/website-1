@@ -140,7 +140,7 @@
   
     $('#weather').each(function(){
         var $this= $(this),
-       // page = $this.data('page');
+        page = $this.data('page');
     $this.on('click',function(){
      //document.location.href="/main.html";
   // window.open ('/main.html', 'blog', 'height=100, width=400, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no'); 
@@ -155,10 +155,10 @@
               });
       showDashBoard();
   });
-  $('.view-demo-button').click(function(){
-    $(this).parent().addClass('slideDemoOverlayUp');
-      showDashBoard();
-  });
+  // $('.view-demo-button').click(function(){
+  //   $(this).parent().addClass('slideDemoOverlayUp');
+  //     showDashBoard();
+  // });
 
   </script>
 </body>
