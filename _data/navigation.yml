@@ -3,29 +3,29 @@
 - title: Started
   url: /getting-started/
   excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
-  image: 20.gif
+  image: mn1.jpg
 
 - title: Articles
   url: /articles/
   excerpt: "Examples of long form posts."
-  image: 21.gif
+  image: mn2.jpg
 
 - title: Media
   url: /media/
   excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
-  image: 20.gif
+  image: mn3.jpg
 
 - title: Programmer
   url: /programmer/
   excerpt: "I am Programmer"
-  image: 21.gif
+  image: mn6.jpg
 
 - title: Life
   url: /life/
   excerpt: "Life is like water "
-  image: 21.gif
+  image: hd.jpg
 
 - title: About
   url: /about/
   excerpt: "All about Skinny Bones for Jekyll."
-  image: 21.gif
+  image: mn8.jpg

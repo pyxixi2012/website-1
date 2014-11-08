@@ -3,7 +3,7 @@ auto: true
 title: insupper
 description: "this is a population website"
 logo: favicon.ico
-teaser: 400x250.gif
+teaser: sprite_download.jpg
 locale: en_US
 pygments: true
 url: //insupper.com
