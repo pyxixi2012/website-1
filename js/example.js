@@ -44,7 +44,7 @@ $(function(){
     $magicLineTwo
         .width($(".current_page_item_two").width())
         .height($mainNav2.height())
-       // .css("left", $(".current_page_item_two a").position().left)
+        //.css("left", $(".current_page_item_two a").position().left)
         //.data("origLeft", $(".current_page_item_two a").position().left)
         .data("origWidth", $magicLineTwo.width())
         .data("origColor", $(".current_page_item_two a").attr("rel"));
