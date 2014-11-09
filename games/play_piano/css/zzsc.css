@@ -1,7 +1,7 @@
 @charset "utf-8";
 div#main {
 	margin:0 auto;
-	width:600px;
+	width:700px;
 	height:420px;
 	position:relative;
 	background-color: #aabbcc
@@ -52,7 +52,7 @@ div.blackKey span {
 	top: -50px;
 }
 div#all {
-	width:600px;
+	width:700px;
 	height:600px;
 	padding:5px;
 	border: 1px solid #666;
