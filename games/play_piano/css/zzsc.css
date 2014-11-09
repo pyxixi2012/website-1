@@ -21,7 +21,7 @@ div.key {
 	float:left;
 	top:40px;
 	text-align: center;
-	font-size:20px;
+	font-size:16px;
 	background-position: bottom left;
 	background-repeat: repeat-x;
 }
@@ -51,12 +51,11 @@ div.blackKey span {
 	top: -50px;
 }
 div#all {
-	width:800px;
-	height:800px;
+	width:600px;
+	height:600px;
 	padding:5px;
 	border: 1px solid #666;
 	margin:40px auto;
-	background:#aabbcc;
 }
 h1 {
 	color:#666;
