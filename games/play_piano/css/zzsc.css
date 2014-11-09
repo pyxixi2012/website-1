@@ -4,6 +4,7 @@ div#main {
 	width:600px;
 	height:420px;
 	position:relative;
+	background-color: #aabbcc
 }
 div#comment {
 	font-size:12px;
