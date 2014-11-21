@@ -1,6 +1,6 @@
 # Site wide configuration
 auto: true
-title: insupper
+title: MyBlog | insupper
 description: "this is a population website"
 logo: favicon.ico
 teaser: sprite_download.jpg
