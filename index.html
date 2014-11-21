@@ -189,13 +189,23 @@
     })
   });
 
-  $('#Notes').each(function(){
+  $('#favorites-thumb').each(function(){
         var $this= $(this),
         page = $this.data('page');
   $this.on('click',function(){
      //document.location.href="/main.html";
   // window.open ('/main.html', 'blog', 'height=100, width=400, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no'); 
    window.open ('/website/website4/index'); 
+    })
+  });
+
+  $('#Notes').each(function(){
+        var $this= $(this),
+        page = $this.data('page');
+  $this.on('click',function(){
+     //document.location.href="/main.html";
+  // window.open ('/main.html', 'blog', 'height=100, width=400, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no'); 
+   window.open ('/website/website5/index'); 
     })
   });
 
